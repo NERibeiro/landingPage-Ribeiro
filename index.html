@@ -4,28 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Empresa Ribeiro</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <div class="logo">Empresa Ribeiro</div>
-    <img src="/images/logo-ribeiro.png" alt="Logo Ribeiro" />
+    <div class="logo">
+      <img src="imagens/logo-ribeiro.png" alt="Logo Ribeiro" />
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <img src="sua-imagem.jpg" alt="Artesanato" class="hero-image"/>
+    <section class="hero" data-aos="fade-up">
+      <img src="imagens/produto-destaque.jpg" alt="Peça de artesanato" class="hero-image"/>
       <h1>Artesanato com Amor</h1>
       <p>Peças únicas feitas à mão para encantar.</p>
       <div class="social-links">
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <a href="https://wa.me/seunumerowhatsapp" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="./imagens/icons8-instagram-old-100.png" alt="">
+        </a>
+        <a href="https://wa.me/seunumerowhatsapp" target="_blank">
+          <img src="./imagens/icons8-facebook-logo-100.png" alt="">
+        </a>
       </div>
     </section>
+
+    <section class="sobre" data-aos="fade-right">
+      <h2>Sobre Nós</h2>
+      <p>Na Empresa Ribeiro, cada peça é feita com carinho e atenção aos detalhes. Nosso objetivo é levar beleza, aconchego e originalidade para o seu lar através do artesanato.</p>
+    </section>
+
+    
   </main>
 
   <footer>
     <p>&copy; 2025 Empresa Ribeiro. Todos os direitos reservados.</p>
   </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5569992916999" target="_blank">
+    <img src="./imagens/icons8-whatsapp.gif" alt="WhatsApp" style="height: 40px;" />
+  </a>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
